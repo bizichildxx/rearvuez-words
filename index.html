@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WORDS — RearVuez × Al3X MiX</title>
+  <meta name="description" content="WORDS — the complete music video by RearVuez × Al3X MiX. Sir, yes sir." />
+  <meta name="theme-color" content="#050505" />
+  <style>
+    :root { color-scheme: dark; --bg:#050505; --fg:#f4f4f0; --muted:#a8a8a2; --accent:#8b1a2b; --border:#2a2a28; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: var(--bg); color: var(--fg); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+    body { min-height: 100dvh; display: flex; flex-direction: column; }
+    header {
+      padding: max(1.25rem, env(safe-area-inset-top)) 1.5rem 1rem;
+      display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    }
+    .kicker { font-size: 10px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--muted); }
+    h1 { margin-top: 0.35rem; font-size: clamp(2.5rem, 10vw, 5.5rem); font-weight: 500; letter-spacing: -0.045em; line-height: 0.92; }
+    .sub { margin-top: 0.75rem; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
+    main { flex: 1; padding: 0 1.5rem 2rem; max-width: 56rem; }
+    .lede { margin-top: 1.5rem; max-width: 28rem; color: var(--muted); line-height: 1.55; font-size: 1.05rem; }
+    .cards { margin-top: 2.5rem; display: grid; gap: 1rem; }
+    @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr; } }
+    .card {
+      border: 1px solid var(--border); padding: 1.25rem 1.35rem; background: #0c0c0c;
+      display: flex; flex-direction: column; gap: 0.65rem; min-height: 10rem;
+    }
+    .card h2 { font-size: 1.35rem; font-weight: 500; letter-spacing: -0.03em; }
+    .card p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; flex: 1; }
+    .card .meta { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--subtle, #6e6e68); }
+    a.btn {
+      display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem;
+      padding: 0 1.1rem; border: 1px solid var(--fg); background: var(--fg); color: var(--bg);
+      font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; text-decoration: none; width: fit-content;
+    }
+    a.btn.ghost { background: transparent; color: var(--fg); border-color: var(--border); }
+    a.btn.ghost:hover { border-color: var(--fg); }
+    a.btn:hover { background: #c4c4be; border-color: #c4c4be; }
+    footer {
+      padding: 1rem 1.5rem max(1.5rem, env(safe-area-inset-bottom));
+      border-top: 1px solid var(--border);
+      display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem;
+      font-size: 12px; color: var(--muted);
+    }
+    footer a { color: var(--fg); text-decoration: none; border-bottom: 1px solid rgba(244,244,240,0.35); }
+    footer a:hover { border-bottom-color: var(--fg); }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <p class="kicker">RearVuez × Al3X MiX</p>
+      <h1>WORDS</h1>
+      <p class="sub">Sir, yes sir</p>
+    </div>
+    <p class="kicker">4:27 · complete cut</p>
+  </header>
+  <main>
+    <p class="lede">
+      The complete music video for the mashup. Full length, start to black.
+      Titles clean. Artist on the cut. Built for the floor — and for VR.
+    </p>
+    <div class="cards">
+      <article class="card">
+        <p class="meta">Primary</p>
+        <h2>WORDS</h2>
+        <p>Sir Yes Sir remix × Words Neo. Four minutes twenty-seven. The film is in the media pack and Grok App Builder session.</p>
+        <a class="btn" href="https://github.com/bizichildxx/rearvuez-words">GitHub repo</a>
+      </article>
+      <article class="card">
+        <p class="meta">Also</p>
+        <h2>The Dance Floor Knows</h2>
+        <p>4:53 cinematic film. People think dance music is superficial. They’ve got it all wrong.</p>
+        <a class="btn ghost" href="https://bizichildxx.github.io/the-dance-floor-knows/">Watch the film</a>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <span>RearVuez · Dallas</span>
+    <a href="https://github.com/bizichildxx/rearvuez-words">Source</a>
+    <a href="https://github.com/bizichildxx/the-dance-floor-knows">Dance Floor Knows repo</a>
+    <a href="https://github.com/bizichildxx/hood-therapy-bot">RearVuez HQ</a>
+  </footer>
+</body>
+</html>
