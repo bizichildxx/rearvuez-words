@@ -1,86 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WORDS — RearVuez × Al3X MiX</title>
-  <meta name="description" content="WORDS — the complete music video by RearVuez × Al3X MiX. Sir, yes sir." />
-  <meta name="theme-color" content="#050505" />
-  <style>
-    :root { color-scheme: dark; --bg:#050505; --fg:#f4f4f0; --muted:#a8a8a2; --accent:#8b1a2b; --border:#2a2a28; }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { min-height: 100%; background: var(--bg); color: var(--fg); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
-    body { min-height: 100dvh; display: flex; flex-direction: column; }
-    header {
-      padding: max(1.25rem, env(safe-area-inset-top)) 1.5rem 1rem;
-      display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
-    }
-    .kicker { font-size: 10px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--muted); }
-    h1 { margin-top: 0.35rem; font-size: clamp(2.5rem, 10vw, 5.5rem); font-weight: 500; letter-spacing: -0.045em; line-height: 0.92; }
-    .sub { margin-top: 0.75rem; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); }
-    main { flex: 1; padding: 0 1.5rem 2rem; max-width: 56rem; }
-    .lede { margin-top: 1.5rem; max-width: 28rem; color: var(--muted); line-height: 1.55; font-size: 1.05rem; }
-    .cards { margin-top: 2.5rem; display: grid; gap: 1rem; }
-    @media (min-width: 720px) { .cards { grid-template-columns: 1fr 1fr; } }
-    .card {
-      border: 1px solid var(--border); padding: 1.25rem 1.35rem; background: #0c0c0c;
-      display: flex; flex-direction: column; gap: 0.65rem; min-height: 10rem;
-    }
-    .card h2 { font-size: 1.35rem; font-weight: 500; letter-spacing: -0.03em; }
-    .card p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; flex: 1; }
-    .card .meta { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--subtle, #6e6e68); }
-    a.btn {
-      display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem;
-      padding: 0 1.1rem; border: 1px solid var(--fg); background: var(--fg); color: var(--bg);
-      font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; text-decoration: none; width: fit-content;
-    }
-    a.btn.ghost { background: transparent; color: var(--fg); border-color: var(--border); }
-    a.btn.ghost:hover { border-color: var(--fg); }
-    a.btn:hover { background: #c4c4be; border-color: #c4c4be; }
-    footer {
-      padding: 1rem 1.5rem max(1.5rem, env(safe-area-inset-bottom));
-      border-top: 1px solid var(--border);
-      display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem;
-      font-size: 12px; color: var(--muted);
-    }
-    footer a { color: var(--fg); text-decoration: none; border-bottom: 1px solid rgba(244,244,240,0.35); }
-    footer a:hover { border-bottom-color: var(--fg); }
-  </style>
-</head>
-<body>
-  <header>
-    <div>
-      <p class="kicker">RearVuez × Al3X MiX</p>
-      <h1>WORDS</h1>
-      <p class="sub">Sir, yes sir</p>
-    </div>
-    <p class="kicker">4:27 · complete cut</p>
-  </header>
-  <main>
-    <p class="lede">
-      The complete music video for the mashup. Full length, start to black.
-      Titles clean. Artist on the cut. Built for the floor — and for VR.
-    </p>
-    <div class="cards">
-      <article class="card">
-        <p class="meta">Primary</p>
-        <h2>WORDS</h2>
-        <p>Sir Yes Sir remix × Words Neo. Four minutes twenty-seven. The film is in the media pack and Grok App Builder session.</p>
-        <a class="btn" href="https://github.com/bizichildxx/rearvuez-words">GitHub repo</a>
-      </article>
-      <article class="card">
-        <p class="meta">Also</p>
-        <h2>The Dance Floor Knows</h2>
-        <p>4:53 cinematic film. People think dance music is superficial. They’ve got it all wrong.</p>
-        <a class="btn ghost" href="https://bizichildxx.github.io/the-dance-floor-knows/">Watch the film</a>
-      </article>
-    </div>
-  </main>
-  <footer>
-    <span>RearVuez · Dallas</span>
-    <a href="https://github.com/bizichildxx/rearvuez-words">Source</a>
-    <a href="https://github.com/bizichildxx/the-dance-floor-knows">Dance Floor Knows repo</a>
-    <a href="https://github.com/bizichildxx/hood-therapy-bot">RearVuez HQ</a>
-  </footer>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#050404"/><title>WORDS VR — RearVuez × Al3X MiX</title><style>
+:root{--bg:#050404;--red:#ba1f33;--gold:#d5ad44;--muted:#aaa;--panel:#0c0a0be8}*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--bg);color:#fff;font-family:Helvetica,Arial,sans-serif;overflow:hidden}canvas{display:block}.hud{position:fixed;inset:0;pointer-events:none;z-index:5}.top{position:absolute;left:18px;right:18px;top:16px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.brand b{display:block;font-size:14px;letter-spacing:.12em;text-transform:uppercase}.brand small{display:block;margin-top:4px;color:#c9c9c9;font-size:10px;letter-spacing:.16em}.live{pointer-events:auto;border:1px solid var(--gold);background:#0d0b0be8;padding:10px 12px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.dot{display:inline-block;width:6px;height:6px;border-radius:999px;background:#37ff82;margin-right:7px}.centerMsg{position:absolute;left:50%;top:29%;transform:translateX(-50%);text-align:center;text-shadow:0 2px 18px #000;transition:opacity .3s}.centerMsg b{display:block;font-size:34px;letter-spacing:.12em}.centerMsg span{display:block;margin-top:8px;color:#d2d2d2;font-size:12px}.panel{position:absolute;left:18px;right:18px;bottom:18px;display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:12px;align-items:end}.card{pointer-events:auto;background:var(--panel);border:1px solid #ffffff1f;backdrop-filter:blur(9px);padding:15px}.eyebrow{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}h1{font-size:24px;line-height:1.05;margin:6px 0}.artist{font-size:12px;color:#bbb}.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}.btn{appearance:none;border:1px solid #ffffff2f;background:#111;color:white;padding:10px 12px;font:700 10px Helvetica,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.btn:hover,.btn.active{border-color:var(--gold)}.btn.primary{background:var(--red);border-color:var(--red)}.timeline{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-top:12px}.timeline input{width:100%}.time{font-size:10px;color:#bbb}.tracks{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.track{display:flex;flex-direction:column;align-items:flex-start;min-width:180px;text-align:left}.track small{font-weight:400;color:#aaa;margin-top:3px}.side{display:grid;gap:10px}.badge,.tip{pointer-events:auto;background:#0d0b0be8;border:1px solid #ffffff1f;padding:12px;font-size:10px;color:#c7c7c7;line-height:1.4}.badge{color:white;letter-spacing:.1em;text-transform:uppercase}@media(max-width:760px){.panel{grid-template-columns:1fr}.side{display:grid;grid-template-columns:1fr 1fr}.centerMsg{top:24%}.centerMsg b{font-size:26px}.top{left:10px;right:10px}.panel{left:10px;right:10px;bottom:10px}.card{padding:12px}.track{min-width:0;flex:1 1 31%}}
+</style><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.185.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.185.0/examples/jsm/"}}</script></head><body><div class="hud"><div class="top"><div class="brand"><b>RearVuez × Al3X MiX</b><small>WORDS — THE VIRTUAL CLUB</small></div><div class="live"><span class="dot"></span>VR FLOOR OPEN</div></div><div class="centerMsg" id="centerMsg"><b>WORDS VR</b><span>Choose a film, then enter the floor</span></div><div class="panel"><div class="card"><div class="eyebrow" id="kicker">Sir, yes sir</div><h1 id="title">WORDS (SIR YES SIR)</h1><div class="artist" id="artist">RearVuez × Al3X MiX</div><div class="controls"><button class="btn primary" id="play">Play film</button><button class="btn" id="mute">Mute</button><button class="btn" id="recenter">Recenter view</button></div><div class="timeline"><input id="seek" type="range" min="0" max="1000" value="0"/><div class="time" id="time">0:00 / 0:00</div></div><div class="tracks" id="tracks"></div></div><div class="side"><div class="badge">Desktop · Touch · WebXR</div><div class="tip">Drag to look around. Headphones recommended. In a compatible headset, use ENTER VR.</div></div></div></div><video id="film" playsinline webkit-playsinline preload="metadata" crossorigin="anonymous" style="position:fixed;width:2px;height:2px;opacity:.001;pointer-events:none"></video><script type="module">
+import * as THREE from 'three';import{VRButton}from'three/addons/webxr/VRButton.js';
+const MEDIA='https://words-vr.rearvuez.chatgpt.site/media';
+const TRACKS=[
+{id:'words',title:'WORDS (SIR YES SIR)',artist:'RearVuez × Al3X MiX',kicker:'Sir, yes sir',duration:'4:27',video:`${MEDIA}/videos/words.mp4`,poster:`${MEDIA}/posters/words.jpg`},
+{id:'floor',title:'THE DANCE FLOOR KNOWS',artist:'RearVuez',kicker:'Cut 2',duration:'4:53',video:`${MEDIA}/videos/dance-floor-knows.mp4`,poster:`${MEDIA}/posters/dance-floor-knows.jpg`},
+{id:'chk',title:'CHK N’ DKN',artist:'Al3X MiX',kicker:'Director’s Cut',duration:'3:20',video:`${MEDIA}/videos/chk-n-dkn-directors-cut.mp4`,poster:`${MEDIA}/posters/chk-n-dkn.jpg`}
+];
+const film=document.querySelector('#film'),playBtn=document.querySelector('#play'),muteBtn=document.querySelector('#mute'),seek=document.querySelector('#seek'),time=document.querySelector('#time'),title=document.querySelector('#title'),artist=document.querySelector('#artist'),kicker=document.querySelector('#kicker'),tracksEl=document.querySelector('#tracks'),centerMsg=document.querySelector('#centerMsg');let active=0;
+TRACKS.forEach((t,i)=>{const b=document.createElement('button');b.className='btn track'+(i===0?' active':'');b.innerHTML=`<span>${t.title}</span><small>${t.artist} · ${t.duration}</small>`;b.onclick=()=>loadTrack(i,true);tracksEl.appendChild(b)});
+function loadTrack(i,auto=false){active=i;const t=TRACKS[i];film.pause();film.removeAttribute('src');film.load();title.textContent=t.title;artist.textContent=t.artist;kicker.textContent=t.kicker;[...tracksEl.children].forEach((b,n)=>b.classList.toggle('active',n===i));film.poster=t.poster;film.src=t.video;film.currentTime=0;film.load();seek.value=0;time.textContent=`0:00 / ${t.duration}`;centerMsg.innerHTML=`<b>${t.title}</b><span>${t.artist}</span>`;centerMsg.style.opacity='.28';if(auto)film.play().catch(()=>{centerMsg.style.opacity='1';});}
+function fmt(s){if(!Number.isFinite(s))return'0:00';const m=Math.floor(s/60),ss=Math.floor(s%60);return`${m}:${String(ss).padStart(2,'0')}`}
+film.addEventListener('play',()=>playBtn.textContent='Pause');film.addEventListener('pause',()=>playBtn.textContent='Play film');film.addEventListener('timeupdate',()=>{if(film.duration){seek.value=Math.round(film.currentTime/film.duration*1000);time.textContent=`${fmt(film.currentTime)} / ${fmt(film.duration)}`}});film.addEventListener('loadedmetadata',()=>time.textContent=`0:00 / ${fmt(film.duration)}`);film.addEventListener('error',()=>{const t=TRACKS[active];centerMsg.innerHTML=`<b>VIDEO LINK ISSUE</b><span>${t.title}</span>`;centerMsg.style.opacity='1'});playBtn.onclick=()=>film.paused?film.play().catch(()=>{}):film.pause();muteBtn.onclick=()=>{film.muted=!film.muted;muteBtn.textContent=film.muted?'Unmute':'Mute'};seek.oninput=()=>{if(film.duration)film.currentTime=+seek.value/1000*film.duration};
+const scene=new THREE.Scene();scene.background=new THREE.Color(0x050404);scene.fog=new THREE.FogExp2(0x050404,.035);const camera=new THREE.PerspectiveCamera(68,innerWidth/innerHeight,.1,120);camera.position.set(0,1.65,7.4);const renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.xr.enabled=true;document.body.prepend(renderer.domElement);const texture=new THREE.VideoTexture(film);texture.colorSpace=THREE.SRGBColorSpace;const screen=new THREE.Mesh(new THREE.PlaneGeometry(11.6,6.525),new THREE.MeshBasicMaterial({map:texture,toneMapped:false}));screen.position.set(0,3.9,-8.8);scene.add(screen);const frame=new THREE.Mesh(new THREE.PlaneGeometry(12,6.9),new THREE.MeshBasicMaterial({color:0xd5ad44}));frame.position.set(0,3.9,-8.9);scene.add(frame);const floor=new THREE.Mesh(new THREE.PlaneGeometry(50,50),new THREE.MeshStandardMaterial({color:0x0b0809,roughness:.25,metalness:.65}));floor.rotation.x=-Math.PI/2;scene.add(floor);scene.add(new THREE.AmbientLight(0x351820,1.2));const r1=new THREE.PointLight(0xe11d2f,28,30);r1.position.set(-8,5,-1);scene.add(r1);const r2=new THREE.PointLight(0xf0c419,20,30);r2.position.set(8,5,3);scene.add(r2);for(let i=0;i<26;i++){const a=i/26*Math.PI*2,rr=6+(i%4)*2;const p=new THREE.Mesh(new THREE.CircleGeometry(.45,20),new THREE.MeshBasicMaterial({color:i%2?0xf0c419:0xe11d2f,transparent:true,opacity:.25}));p.rotation.x=-Math.PI/2;p.position.set(Math.sin(a)*rr,.02,Math.cos(a)*rr-1);scene.add(p)}
+const vrButton=VRButton.createButton(renderer);vrButton.style.position='fixed';vrButton.style.right='18px';vrButton.style.top='78px';vrButton.style.bottom='auto';vrButton.style.left='auto';vrButton.style.border='1px solid #d5ad44';vrButton.style.background='#0d0b0be8';vrButton.style.color='white';vrButton.style.zIndex='10';document.body.appendChild(vrButton);
+let yaw=0,pitch=0,ty=0,tp=0,drag=false,lx=0,ly=0;renderer.domElement.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX;ly=e.clientY;renderer.domElement.setPointerCapture(e.pointerId)});renderer.domElement.addEventListener('pointermove',e=>{if(!drag)return;ty-=(e.clientX-lx)*.0038;tp-=(e.clientY-ly)*.0032;tp=Math.max(-.7,Math.min(.7,tp));lx=e.clientX;ly=e.clientY});renderer.domElement.addEventListener('pointerup',()=>drag=false);document.querySelector('#recenter').onclick=()=>{ty=tp=0};addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});renderer.setAnimationLoop(()=>{yaw+=(ty-yaw)*.09;pitch+=(tp-pitch)*.09;if(!renderer.xr.isPresenting)camera.rotation.set(pitch,yaw,0,'YXZ');renderer.render(scene,camera)});loadTrack(0,false);
+</script></body></html>
